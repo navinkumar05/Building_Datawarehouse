@@ -45,3 +45,19 @@ GROUP BY city.city
 ORDER BY total_amount DESC
 LIMIT 3;
 ```
+
+## Q3 - select top 5 movie's collection in each city
+
+```sql
+select film.title as movie_name, city.city AS city_name, SUM(payment.amount) AS total_amount
+FROM film
+JOIN inventory ON film.film_id = inventory.film_id
+JOIN rental ON inventory.inventory_id = rental.inventory_id
+JOIN payment ON rental.rental_id = payment.rental_id
+JOIN customer ON customer.customer_id = payment.customer_id 
+JOIN address ON address.address_id = customer.address_id 
+JOIN city ON city.city_id = address.city_id 
+GROUP BY (city.city, film.title)
+ORDER BY total_amount DESC
+LIMIT 5;
+```

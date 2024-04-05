@@ -31,4 +31,4 @@ Note: for Dataware house many tools available BigQuery, Redshift, Snowflake...
 
 ## Reference
 
-[What is a Data Warehouse? - with example EXPLAINED](https://www.youtube.com/playlist?list=PLBJe2dFI4sgukOW6O0B-OVyX9c6fQKJ2N)
+[What is a Data Warehouse? - with example](https://www.youtube.com/playlist?list=PLBJe2dFI4sgukOW6O0B-OVyX9c6fQKJ2N)
