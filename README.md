@@ -17,17 +17,6 @@ POC- Building Datawarehouse
   - Dice
 - Exercise 2 - Slicing and Dicing
 
-## Part 2 (Cloud)
-
-- Data Warehouse Technologies
-- Introduction to Cloud Computing (AWS)
-  - Implementing Data Warehouse on Cloud
-  - Redshift Introduction
-  - ETL on Redshift
-- Exercise 1
-- Final Project
-
-Note: for Dataware house many tools available BigQuery, Redshift, Snowflake...
 
 ## Reference
 
